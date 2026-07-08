@@ -1023,5 +1023,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C48P2:END-->
+<!--WY-C48P3:BEGIN-->
+<style id="wy-c48p3-css">
+.c48p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c48p3-fabbox.show{display:block;}
+.c48p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c48p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c48p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c48p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c48p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c48p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c48p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c48p3-modal.open{display:flex;}
+.c48p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c48p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c48p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c48p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c48p3-close:hover{background:#e3d5b8;}
+.c48p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c48p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c48p3-tbl th,.c48p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c48p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c48p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c48p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c48p3-tbl b{color:#8b2500;}
+.c48p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c48p3-note b{color:#8b2500;}
+@media(max-width:900px){.c48p3-fabbox{right:14px;}.c48p3-tbl{font-size:11.5px;}.c48p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c48p3-fabbox" id="c48p3Box"><button class="c48p3-btn" id="c48p3Btn" type="button" aria-label="開啟全景總表"><span class="c48p3-ic">▦</span><span class="c48p3-ls"><span class="c48p3-l1">本品 · 摩訶衍與四十二字陀羅尼門</span><span class="c48p3-l2">建構與解構的雙螺旋 · 阿字本不生</span></span></button></div><div class="c48p3-modal" id="c48p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c48p3-card"><button class="c48p3-close" id="c48p3Close" type="button" aria-label="關閉">×</button><h3>卷四十八·第三品 摩訶衍與四十二字陀羅尼門 · 全景總表</h3><p class="sub">卷四十八・第三品｜三十七道品至十八不共法・四十二字逐字釋義・語言原子論・中觀三大操作</p><table class="c48p3-tbl"><caption>一、摩訶衍諸法門的整體架構（經文·世俗諦的建構）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>句式印章</td><td>經文連用十餘個「是名菩薩摩訶薩摩訶衍，以不可得故」的句式，把三十七道品、三三昧、十一智、諸禪定、佛十力等一切法門全部收編入大乘</td></tr><tr><td>三層金字塔</td><td>底層三十七道品（三乘共修解脫骨幹）→中層三昧禪定（觀慧止力所依）→頂層佛地不共功德（十力、四無畏、四無礙智、十八不共法唯佛獨證）</td></tr><tr><td>收攝漏斗</td><td>無量佛法（宏觀菩薩行）經語言名相（世俗認知瓶頸），最終收攝於四十二字門（底層實相代碼）——不是咒語堆疊，而是最高階的認識論解構</td></tr><tr><td>建構解構雙螺旋</td><td>【經】文負責世俗諦的建構——把宏觀坐標完整豎立；【論】釋負責勝義諦的解構——龍樹將整座建構消解為四十二字門</td></tr><tr><td>以不可得故</td><td>貫穿全品每組法門收尾的核心開關：既承認法門在世俗諦上的真實作用，又當下宣告其在勝義諦上的無自性——同樣的法門因見地不同而判分大小</td></tr></tbody></table><table class="c48p3-tbl"><caption>二、四十二字陀羅尼門精要</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>字等語等</td><td>於一切字、一切語平等無別、無有愛憎——「等」者，與畢竟空、涅槃同等；每一字皆是契入諸法實相的一道門徑（諸字入門）</td></tr><tr><td>逐字釋義選要</td><td>阿——一切法初不生故；那——諸法離名不得不失故；迦——入諸法作者不可得故；荼——入諸法邊竟處不可得，不終不生故，過荼無字可得</td></tr><tr><td>字相即虛空</td><td>過荼無字可得，因更無字故；諸字無礙無名，亦不滅、亦不可說、不可示不可見不可書——當知一切諸法如虛空，陀羅尼門即阿字義</td></tr><tr><td>二十功德</td><td>若聞受誦讀持是諸字門印，得強識念、慚愧、堅固心、經旨趣、智慧、樂說無礙、易得諸陀羅尼、無疑悔心、聞善不憙聞惡不怒等，皆自然產生之效應</td></tr><tr><td>初門效應</td><td>四十二字是一切字根本，因字有語、因語有名、因名有義——先破第一大關（字），餘關自然迎刃而解，如龍樹言「先說一大者，則知餘者皆說」</td></tr></tbody></table><table class="c48p3-tbl"><caption>三、中觀邏輯的極致解構（論釋·勝義諦的解構）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>語言原子論</td><td>字（原始代碼）→語（音節組合）→名（概念建構）→義（萬法實相）——凡夫從「義」倒果為因，菩薩逆向工程直取最底層「字」的原始代碼</td></tr><tr><td>中觀三大支柱</td><td>破邪顯正（八不中道否定邏輯）＋自性本空（萬法無自性概念消除）＋假名施設（不壞假名世俗工具）——三柱共托般若空性殿頂</td></tr><tr><td>無自性全面掃描</td><td>連解構工具本身也須被消解：䭾（Dha）鎖定「法」不可得、若（Jñā）鎖定「智」不可得、呿（Kha）鎖定「虛空」不可得——防止行者把空實體化為新執著</td></tr><tr><td>觸聲悟道模型</td><td>耳根接觸任意聲響（Input）→意識瞬間匹配矩陣字根（Processing）→觸發即時觀境當下契入空性（Output），是即時的正念聯想訓練</td></tr><tr><td>阿字本不生</td><td>阿是梵文否定前綴，經文釋「一切法初不生故」——若參透阿字（無生），後續四十一字皆是此不生之義在不同面向上的展開，是全套演算法的總開關</td></tr></tbody></table><p class="c48p3-note">本品最深的弔詭在於：前半以「有」把菩薩萬行、乃至佛地不共功德建構到極致，經文卻在末尾陡然收於「字」——以阿字為首、荼字為終的四十二個音門。這不是咒語的堆疊，而是把語言學的訓詁直接轉化為中觀的觀法：<b>因字有語，因語有名，因名有義</b>，掌握最底層的字，即掌握了萬法的原始代碼。破邪顯正、自性本空、假名施設三大支柱共同托起般若空性——我們必須極度精準地使用語言文字這個宇宙中最大的幻覺工具，作為摧毀一切幻覺的武器。建構與解構，在畢竟空中圓融為一。</p></div></div>
+<script id="wy-c48p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c48p3Btn"),BOX=document.getElementById("c48p3Box"),MODAL=document.getElementById("c48p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideo,.wy-video-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c48p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C48P3:END-->
 </body>
 </html>
